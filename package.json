@@ -1,0 +1,27 @@
+{
+  "name": "omnisack-provider-server",
+  "version": "1.0.0",
+  "description": "An example webhook for WhatsApp Messaging quick start tutorial.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WhatsApp/WhatsApp-Business-API-Setup-Scripts"
+  },
+  "author": "WhatsApp",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "@slack/web-api": "^6.7.2",
+    "redis": "^4.1.1",
+    "twilio": "^3.79.0",
+    "slack-block-builder": "^2.6.0"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
